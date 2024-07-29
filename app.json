@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "bethanys",
+    "slug": "bethanys",
+    "scheme": "myapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/bethanys-icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/bethanys-splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#36302c"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "config": {
+        "googleMaps": {
+          "apiKey": "API KEY GOES HERE"
+        }
+      },
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/bethanys-adaptive.png",
+        "backgroundColor": "#36302c"
+      },
+      "package": "com.rdawson.bethanys"
+    },
+    "web": {
+      "favicon": "./assets/bethanys-favicon.png",
+      "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c50913c3-75d4-4843-b4b3-72c7737c2d39"
+      }
+    }
+  }
+}
